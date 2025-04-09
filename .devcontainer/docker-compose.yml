@@ -22,3 +22,4 @@ services:
       DB_POSTGRESDB_HOST: postgres
       DB_TYPE: postgresdb
       DB_POSTGRESDB_PASSWORD: password
+      N8N_SECURE_COOKIE: "false" #deshabilita la seguridad de las cookies para acceder sin certificado TLS/HTTPS.
